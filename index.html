@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bishal Basyal - Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ===== HEADER ===== -->
+  <header id="header">
+    <div class="logo">
+      <img src="bis.jpg" alt="Bishal Basyal Logo">
+      <span>Bishal Basyal</span>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#gallery">Photographs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hamburger Menu -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-menu" id="mobileMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#gallery">Photographs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+    <!-- Home Section -->
+    <section id="home">
+      <div class="home-content">
+        <div class="intro-text">
+          <span class="greeting">👋 Hello, I'm</span>
+          <h1 class="name">Bishal Basyal</h1>
+          
+          <div class="typed-text">
+            <span class="typed"></span>
+          </div>
+          
+          <p class="bio">I craft responsive and user-friendly websites with modern design trends, focusing on clean code and elegant experiences that make a difference.</p>
+          
+          <div class="cta-buttons">
+            <a href="#projects" class="btn primary-btn">View My Work</a>
+            <a href="#contact" class="btn secondary-btn">Let's Talk</a>
+          </div>
+          
+          <div class="home-social-links">
+            <a href="https://www.facebook.com/share/14S67ET9LUA/" target="_blank" aria-label="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/bishal.bb7" target="_blank" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/@bishalbasyal-07" target="_blank" aria-label="YouTube">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://github.com/bishalbasyal" target="_blank" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="home-image">
+          <div class="image-wrapper">
+            <img src="bis.jpg" alt="Bishal Basyal" class="profile-img">
+            
+            <div class="floating-card experience">
+              <i class="fas fa-code"></i>
+              <span>2+ Years Learning</span>
+            </div>
+            
+            <div class="floating-card projects-count">
+              <i class="fas fa-project-diagram"></i>
+              <span>2+ Projects</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="scroll-indicator">
+        <a href="#about">
+          <span>Scroll Down</span>
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h1 data-text="About">About</h1>
+      
+      <div class="about-layout">
+        <!-- Left Column - Intro Card -->
+        <div class="about-left">
+          <div class="about-intro-card">
+            <div class="intro-img">
+              <img src="bis.jpg" alt="Bishal Basyal">
+            </div>
+
+            <div class="intro-details">
+              <p><span>Name:</span> Bishal Basyal</p>
+              <p><span>Role:</span> BCA Student</p>
+              <p><span>Focus:</span> Web Development</p>
+              <p><span>Location:</span> Nepalgunj, Banke</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column - Bio -->
+        <div class="about-right">
+          <p>
+            I'm an IT student at Mahendra Multiple Campus with a passion for web development.
+            I build responsive and modern websites using HTML, CSS, and JavaScript, focusing
+            on clean design and user-friendly experiences. I enjoy turning ideas into
+            functional interfaces and continuously learning new techniques to improve
+            performance and usability.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h1 data-text="Projects">Projects</h1>
+      
+      <div class="projects">
+        <div class="card">
+          <h2>
+            <a href="https://www.bishalbasyal07.com.np" target="_blank" rel="noopener noreferrer">
+              Portfolio Website
+            </a>
+          </h2>
+          <p>A responsive personal website built with HTML, CSS, and JS.</p>
+        </div>
+        
+        <div class="card">
+          <a href="project report !!HDMS!BISHAL.pdf" target="_blank" class="card-link">
+            <h2>Homework Diary</h2>
+            <p>Currently working on a college project about managing homework digitally.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Photographs Section -->
+    <section id="gallery">
+      <h1 data-text="Photographs">Photographs</h1>
+      
+      <div class="projects">
+        <div class="card">
+          <img src="photos/Sunset.jpeg" alt="Sunset From My Home" class="clickable-img">
+          <h2>Sunset</h2>
+        </div>
+        
+        <div class="card">
+          <img src="photos/Pokhara.JPG" alt="Pokhara (Machapuchre View)" class="clickable-img">
+          <h2>Pokhara</h2>
+        </div>
+        
+        <div class="card">
+          <img src="photos/kedareshwor Temple.jpeg" alt="kedareshwor Temple" class="clickable-img">
+          <h2>kedareshwor Temple</h2>
+        </div>
+        
+        <div class="card">
+          <img src="photos/Lumbini.JPG" alt="Lumbini - Birth Place of Gautam Buddha" class="clickable-img">
+          <h2>Lumbini</h2>
+        </div>
+        
+        <div class="card">
+          <img src="photos/Annapurna Range.png" alt="Annapurna Himal" class="clickable-img">
+          <h2>Annapurna Himal</h2>
+        </div>
+
+          <div class="card">
+          <img src="photos/Laxmana lake.JPG" alt="Laxmana lake" class="clickable-img">
+          <h2>Laxmana lakeside</h2>
+         </div>
+
+         <div class="card">
+          <img src="photos/PokharaLakeside.jpg" alt="PokharaLakeside" class="clickable-img">
+          <h2>Pokhara Lakeside</h2>
+         </div>
+
+         <div class="card">
+          <img src="photos/cricket.JPG" alt="cricket" class="clickable-img">
+          <h2>Cricket</h2>
+         </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h1 data-text="Contact">Contact</h1>
+      <p class="section-subtitle">Want to get in touch? I'd love to hear from you!</p>
+      
+      <div class="contact-container">
+        <!-- Contact Info Cards -->
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Location</h3>
+              <p>Nepalgunj, Banke</p>
+              <p>Nepal</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Phone</h3>
+              <p>+977-9844762700</p>
+              <p>Available on WhatsApp</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Email</h3>
+              <p>bishalbasyal007@gmail.com</p>
+              <p>Response within 24 hours</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Contact Form -->
+        <div class="quick-contact">
+          <h3>Send a Quick Message</h3>
+          
+          <form id="quickContactForm">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+              <i class="fas fa-user"></i>
+            </div>
+            
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+              <i class="fas fa-envelope"></i>
+            </div>
+            
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+              <i class="fas fa-pencil-alt"></i>
+            </div>
+            
+            <button type="submit" class="btn primary-btn send-btn" id="sendBtn">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+          
+          <div id="formStatus" class="form-status" style="display: none;"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    &copy; 2026 Bishal Basyal | All Rights Reserved
+  </footer>
+
+  <!-- ===== LIGHTBOX ===== -->
+  <div id="lightbox">
+    <span id="closeLightbox">&times;</span>
+    <span id="prevImg">&#10094;</span>
+    <img id="lightboxImg" alt="">
+    <span id="nextImg">&#10095;</span>
+    <p id="caption"></p>
+  </div>
+
+  <!-- ===== SCRIPTS ===== -->
+  <!-- EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
